@@ -16,7 +16,7 @@ app.get('/', (request, response) => {
 
 app.get('/quizzes', (request, response) => {
     let metadata = data.quizzes.map(x => {
-        return { name: x.name, id: x.id, picture: x.picture }
+        return { title: x.title, id: x.id, picture: x.picture }
     });
     response.json(metadata);
 });
