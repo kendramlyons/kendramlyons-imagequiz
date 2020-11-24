@@ -1,18 +1,19 @@
 {
-  "name": "ista330",
+  "name": "kendramlyons-imagequiz",
   "version": "1.0.0",
   "description": "imagequiz server",
   "main": "index.js",
   "scripts": {
-    "test": "ok"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "kendramlyons-imagequiz"
   },
-  "author": "kendra m lyons",
+  "author": "Kendra M Lyons",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
